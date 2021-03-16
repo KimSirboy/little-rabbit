@@ -1,0 +1,357 @@
+body {
+  background-color: #f6f6f6 !important;
+}
+.frame {
+  padding: 20px 0 92px 0;
+}
+.frame .w {
+  height: 100%;
+}
+.frame aside {
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 15px 0px 44px 0px;
+  width: 224px;
+  background-color: #ffffff;
+}
+.frame aside .aside_box {
+  box-sizing: border-box;
+  padding: 27px 0 20px 0;
+  width: 100%;
+  border-bottom: 2px solid #f4f4f4;
+  text-indent: 34px;
+}
+.frame aside .aside_box:last-child {
+  border-bottom: none;
+}
+.frame aside .aside_box h3 {
+  margin-bottom: 18px;
+  color: #333333;
+  text-indent: 52px;
+  font-weight: normal;
+  font-size: 16px;
+}
+.frame aside .aside_box li {
+  width: 100%;
+  height: 36px;
+  font-size: 14px;
+  line-height: 36px;
+}
+.frame aside .aside_box li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #666666;
+}
+.frame aside .aside_box li a:hover {
+  color: #5cb99e;
+}
+.frame aside .aside_box li a::before {
+  margin-right: 3px;
+  color: transparent;
+  content: '\e608';
+  line-height: 36px;
+}
+.frame aside .aside_box li a:hover::before {
+  color: #5eb69c;
+}
+.frame article {
+  float: right;
+  width: 996px;
+  height: 1300px;
+}
+.frame article .user_box {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 132px;
+  background-image: linear-gradient(115deg, #5aa790 5%, #5eb69c 100%);
+}
+.frame .user_box .user_card {
+  float: left;
+  margin-top: 23px;
+  margin-left: 70px;
+  width: 164px;
+  height: 86px;
+  line-height: 86px;
+}
+.frame .user_box .user_card img {
+  float: left;
+  width: 86px;
+  height: 86px;
+}
+.frame .user_box .user_card h3 {
+  float: right;
+  color: #ffffff;
+  font-size: 18px;
+}
+.frame .user_box .portal_sub {
+  float: right;
+  margin-top: 34px;
+  margin-right: 53px;
+  width: 406px;
+  height: 63px;
+}
+.frame .portal_sub li {
+  float: left;
+  margin-right: 107px;
+  width: 64px;
+  height: 63px;
+}
+.frame .portal_sub li:last-child {
+  margin-right: 0;
+}
+.frame .portal_sub li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 16px;
+}
+.frame .portal_sub li i {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-family: iconfont;
+  line-height: 30px;
+}
+.frame .order_box {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 392px;
+  background-color: #fff;
+}
+.frame .list_hd {
+  padding: 31px 0 21px 0;
+  width: 100%;
+  height: 19px;
+  line-height: 19px;
+}
+.frame .list_hd h3 {
+  float: left;
+  margin-left: 23px;
+  color: #333333;
+}
+.frame .list_hd span a {
+  float: right;
+  color: #999999;
+  font-size: 16px;
+}
+.frame .list_hd span a:hover {
+  color: #5eb69c;
+}
+.frame .list_hd span a::after {
+  margin-right: 28px;
+  content: '\e607';
+}
+.frame .order_box .order_bd {
+  margin-bottom: 20px;
+  margin-left: 18px;
+  width: 964px;
+  height: 138px;
+  border: solid 1px #f4f4f4;
+  border-collapse: collapse;
+}
+.frame .order_bd .commodity {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 585px;
+  height: 100%;
+  border-right: solid 1px #f4f4f4;
+  background-color: #fff;
+}
+.frame .order_bd .good {
+  margin-top: 15px;
+  width: 360px;
+  height: 107px;
+}
+.frame .order_bd .good_pic {
+  float: left;
+  display: block;
+  margin-left: 12px;
+  width: 107px;
+  height: 107px;
+}
+.frame .order_bd .good img {
+  width: 100%;
+  height: 100%;
+}
+
+.frame .order_bd .good h4 a {
+  float: left;
+  display: block;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 4px;
+  width: 210px;
+  color: #333333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.frame .order_bd .good h4 a:hover {
+  color: #5eb69c;
+}
+.frame .order_bd .good p {
+  float: left;
+  margin-top: 10px;
+  margin-left: 4px;
+  color: #999999;
+  font-size: 14px;
+}
+.frame .commodity span {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  color: #e05e30;
+  font-size: 14px;
+}
+.frame .commodity .express {
+  position: absolute;
+  top: 80px;
+  right: 73px;
+  color: #999999;
+  font-size: 14px;
+}
+.order_box .order_price {
+  float: left;
+  box-sizing: border-box;
+  padding-top: 39px;
+  width: 196px;
+  height: 100%;
+  border-right: solid 1px #f4f4f4;
+  text-align: center;
+}
+.order_box .order_price p {
+  color: #333333;
+  font-size: 14px;
+}
+.order_box .order_price p:first-child {
+  color: #9a2e1f;
+}
+.order_box .order_price p:first-child::before {
+  content: '\e634';
+}
+.order_bd .pay_box {
+  float: left;
+  width: 183px;
+  height: 100%;
+  text-align: center;
+}
+.order_bd .pay_box button {
+  margin-top: 27px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 31px;
+  border-radius: 2px;
+  background-color: #5eb69c;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 31px;
+}
+.order_bd .pay_box button:hover {
+  background-color: #60a38e;
+  transition: background-color 0.2s;
+}
+.order_bd .pay_box a {
+  display: block;
+  color: #333333;
+  font-size: 14px;
+}
+.order_bd .pay_box a:hover {
+  color: #60a38e;
+}
+.referral_box {
+  margin-bottom: 20px;
+  width: 996px;
+  height: 384px;
+  background-color: #ffffff;
+}
+.referral_box .goods {
+  box-sizing: border-box;
+  margin-left: 15px;
+  padding-top: 15px;
+  width: 962px;
+  height: 281px;
+  border-top: 1px solid #f4f4f4;
+}
+.referral_box .goods_box {
+  position: relative;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  margin-right: 13px;
+  width: 230px;
+  height: 280px;
+  border: 2px solid transparent;
+  transition: border 0.2s, margin-top 0.2s, box-shadow 0.2s;
+}
+.referral_box .goods_box:hover {
+  margin-top: -4px;
+  border: 2px solid #60a38e;
+  box-shadow: 0px 3px 8px 0px rgba(144, 144, 144, 0.22);
+}
+
+.referral_box .goods_box:last-child {
+  margin-right: 0;
+}
+.referral_box .goods_box a {
+  display: block;
+  padding: 0px 30px;
+  width: 100%;
+  height: 100%;
+}
+.referral_box .goods_box a img {
+  margin-top: 5px;
+  margin-left: 2px;
+  width: 160px;
+  height: 160px;
+}
+.referral_box .goods_box a h4 {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 75%;
+  height: 40px;
+  color: #333333;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.referral_box .goods_box a h4:hover {
+  color: #5cb99e;
+}
+.referral_box .goods_box a p {
+  margin-top: 15px;
+  color: #9a2e1f;
+  font-size: 22px;
+}
+.referral_box .goods_box a p::before {
+  content: '\e634';
+}
+.referral_box .goods_box .off {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  color: #e2e2e2;
+  cursor: pointer;
+}
+.referral_box .goods_box em {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  width: 28px;
+  height: 52px;
+  border: solid 2px #5eb69c;
+  border-radius: 3px;
+  color: #5eb69c;
+  text-align: center;
+  font-size: 18px;
+}
